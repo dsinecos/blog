@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/vue"></script> -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="border">
+                <div>
+                    <ul class="nav nav-pills">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border">
+                <br>
+                <br>
+                <hr>
+            </div>
+            <div class="header-text">
+                <p>English and German: Most of the time in these languages we don’t read the word as a combination of letters
+                        probably because they use Latin script. In fact, what we speak is the phonetic transcription of the words.
+                        examples: take</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <hr>
+    </div> -->
+
+    <div class="container blog-list-item">
+        <div class="blog-header-container">
+            <h3 class="blog-post-title">Testing box-sizing: border-box</h3>
+            <h5 class="blog-post-date">5th October 2017</h5>
+        </div>
+
+        <p>English and German: Most of the time in these languages we don’t read the word as a combination of letters probably
+            because they use Latin script. In fact, what we speak is the phonetic transcription of the words. examples: take
+            two similar English words “put (/pʊt/)” and “cut (/kʌt/)” the ‘u’ in “put” is spoken with ‘ʊ’ sound but in “cut”
+            it is having ‘ʌ’ sound. Similarly the German ‘G’ in “Tag” is pronounced like English ‘K’ but the same German
+            ‘G’ in “Gut is pronounced like English ‘G’ itself.
+            <p>
+    </div>
+
+</body>
+
+<style>
+    .container {
+        /* border: 2px solid black; */
+        max-width: 700px;
+        margin: auto;
+        /* margin-top: 2%; */
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    ul {
+        margin-right: 5%;
+        /* padding-right: 5%; */
+        float: right;
+        /* overflow: hidden; */
+        /* border: 2px solid black; */
+    }
+    /* body {
+        background-color: #8476AD;
+    } */
+
+    p {
+        font-family: "Work Sans", sans-serif;
+        line-height: 1.5;
+        font-size: 18px;
+        text-rendering: optimizeLegibility;
+        color: #444;
+    }
+
+    a {
+        color: white;
+        font-size: 18px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    /* .border {
+        border: 2px solid black;
+    } */
+
+    .header {
+        margin-top: 0;
+        background-color: #8476AD;
+    }
+
+    .header-text {
+        max-width: 85%;
+        margin: auto;
+
+        /* text-align: justify; */
+    }
+
+    .header-text p {
+        color: #eee;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .blog-post-title {
+        float: left;
+        /* clear: both; */
+        /* display: inline-block; */
+    }
+
+    .blog-post-date {
+        margin-top: 5%;
+        float: right;
+        /* clear: both; */
+        /* display: inline-block; */
+    }
+
+    .blog-header-container {
+        /* border: 1px solid #000000; */
+        overflow: auto;
+        width: 100%;
+    }
+
+    .blog-list-item:hover {
+        box-shadow: 10px 10px 2px #aaa;
+    }
+</style>
+
+</html>
